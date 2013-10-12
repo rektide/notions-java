@@ -1,0 +1,3 @@
+java -Xmx256m -XX:MaxPermSize=128m -jar /opt/eclipse-4.3.1/plugins/org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar -clean -application org.eclipse.equinox.p2.director -repository file:///tmp/formic_215449886/update -installIU org.eclim.installer.feature.group
+java -Xmx256m -XX:MaxPermSize=128m -jar /opt/eclipse-4.3.1/plugins/org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar -clean -application org.eclim.installer.application -info
+
